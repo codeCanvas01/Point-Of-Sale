@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+
+*{
+    font-family: 'Nunito', sans-serif !important;
+}
+body{
+    background-color: #a0bfea;
+}
+
+.item-button button{
+    margin-top: 20px;
+    width: 200px;
+    background-color: #5490e3;
+    color: rgb(186, 234, 234);
+}
+.item-button button:hover{
+    color: rgb(186, 234, 234) !important;
+    background-color:#1463d2 !important ;
+}
+
+.ant-layout-header{
+    line-height: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px !important;
+    padding-right: 30px !important;
+    cursor: pointer;
+}
+.cart-item p{
+    margin-top: 10px;
+    font-weight: bold;
+   
+}
+
+.spinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.category{
+    border: 2px solid gray;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.category img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.category h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.category-active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b4d0f6;
+    border: 2px solid  cadetblue;
+}
+
+.register{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 100vh; 
+}
+
+.register input{
+    width: 400px;
+}
+
+.register-form{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 10px;
+}
+
+.register-form h1{
+    text-align: center;
+    background-color: #062a5d;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.register-form h3{
+    text-align: center;
+    font-weight: bold;
+}
